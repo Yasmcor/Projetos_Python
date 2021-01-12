@@ -1,0 +1,9 @@
+from math import factorial
+n = int(input('Digite um número para ver seu fatorial'))
+começaem = n
+while começaem > 0:
+    print('{}'.format(começaem),end="")
+    print(' x ' if começaem > 1 else' = ', end="")
+    começaem = começaem - 1
+f = factorial(n)
+print('\nO fatorial de {} é = {}'.format(n,f))
