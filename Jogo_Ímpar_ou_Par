@@ -1,0 +1,29 @@
+from random import randint
+v = 0
+while True:
+    jogador = int(input('Escolha um número!'))
+    computador = randint(0,10)
+    total = jogador + computador
+    tipo = ' '
+    while tipo not in 'PpIi':
+        tipo = str(input('Par ou Impar [P/I] ? :'))
+        print(f'Voce jogou {jogador} e o computador {computador}. Obtivemos {total}')
+    if tipo in 'Pp':
+        if total % 2 == 0:
+            print('VOCE VENCEU!')
+            print('DEU PAR')
+            v = v + 1
+        else:
+            print('VOCE PERDEU!')
+            print('DEU IMPAR')
+            break
+    elif tipo in 'Ii':
+        if total % 2 == 0:
+            print('VOCE PERDEU!')
+            print('DEU PAR')
+            break
+        else:
+            print('VOCE VENCEU!')
+            print('DEU IMPAR')
+            v = v + 1
+print(f'Voce ganhou {v} vezes')
