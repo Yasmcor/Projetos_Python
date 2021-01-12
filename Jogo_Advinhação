@@ -1,0 +1,16 @@
+from random import randint
+from time import sleep
+computador = randint(0, 5)
+print('Vou pensar em um número de 0 a 5')
+sleep(2)
+print('Você consegue adivinhar?')
+sleep(1)
+print('hum...')
+sleep(3)
+print('Pensei!')
+resposta = int(input('Qual foi o número que pensei?'))
+if resposta == computador:
+    print('Parabéns, jogador.')
+    print('Eu realmente escolhi este número')
+else:
+    print('Você errou, o número correto era {}'.format(computador))
