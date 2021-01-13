@@ -13,4 +13,4 @@ if resposta == computador:
     print('Parabéns, jogador.')
     print('Eu realmente escolhi este número')
 else:
-    print('Você errou, o número correto era {}'.format(computador))
+    print('Você errou, o número correto era {}. Talvez na próxima vez!'.format(computador))
