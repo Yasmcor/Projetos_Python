@@ -1,2 +1,2 @@
 # Projetos_Python
-Programas elaborados  em Python para treinamento durante meu aprendizado.
+Programas simples elaborados em Python, com o objetivo de treinar durante meu aprendizado na linguagem.
