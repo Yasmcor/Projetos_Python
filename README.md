@@ -1,2 +1,2 @@
 # Projetos_Python
-Programas simples elaborados em Python, com o objetivo de treinar durante meu aprendizado na linguagem.
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" target="_blank"></a> 
