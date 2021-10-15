@@ -1,10 +1,13 @@
 # Projetos_Python
 Projetos de estudo na linguagem de programação Python.
 
+## Cálculos
 - Cálculo de IMC
 - Cálculo de fatorial
 - Cálculo de Hipotenusa
 - Validação de ano bisexto
+
+## Jogos
 - Jogo de adivinhação
 - Jogo pedra papel ou  tesoura
 - Jogo de impar ou par
