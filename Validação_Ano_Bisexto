@@ -1,4 +1,4 @@
-# Importando pacote date
+# Importando pacote date.
 from datetime import date
 
 ano = int(input('Digite o ano'))
