@@ -64,4 +64,4 @@ python nome_do_arquivo.py
 
 [ ] Criar um script para cálculo de Juros Compostos.
 
-Feito com 💚 e ☕ por [Seu Nome/Usuário do GitHub]
+Feito com ☕ por [Yasmin correia/yasmcor]
